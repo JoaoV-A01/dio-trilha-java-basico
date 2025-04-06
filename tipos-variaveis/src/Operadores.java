@@ -1,11 +1,14 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
+        int a, b;
 
-        numero = -numero; // Inverte o sinal do número
-        System.out.println(numero); // Saída: -5
+        a = 10;
+        b = 20;
 
-        
+        String resultado = a ==b ? "verdadeiro" : "falso"; // operador ternário
+        // operador ternário é uma forma de simplificar o if-else, mas não é tão legível
+
+        System.out.println(resultado);
 
     }
 }
