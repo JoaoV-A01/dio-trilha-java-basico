@@ -1,14 +1,20 @@
 public class Operadores {
     public static void main(String[] args) {
-        int a, b;
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
-        a = 10;
-        b = 20;
+        // Operadores lógicos
+        
+        // && (E lógico) - retorna verdadeiro se ambas as condições forem verdadeiras
+        if (condicao1 && condicao2) {
+            System.out.println("Ambas as condições são verdadeiras.");
+        }
 
-        String resultado = a ==b ? "verdadeiro" : "falso"; // operador ternário
-        // operador ternário é uma forma de simplificar o if-else, mas não é tão legível
+        // || (OU lógico) - retorna verdadeiro se pelo menos uma das condições for verdadeiras
+        if (condicao1 || condicao2) {
+            System.out.println("Pelo menos uma das condições é verdadeira.");
+        }
 
-        System.out.println(resultado);
-
+        System.out.println("fim");
     }
 }
