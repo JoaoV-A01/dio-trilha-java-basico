@@ -16,6 +16,6 @@ public class TiposVariaveis {
         System.out.println(VALOR_DE_PI);
 
         //tipos referencia
-        Sting nome = "Lucas";
+        String nome = "Lucas";
     }
 }
