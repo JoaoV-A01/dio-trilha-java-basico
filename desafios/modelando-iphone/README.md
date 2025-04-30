@@ -1,26 +1,30 @@
+Diagrama de Classe UML (Mermaid) - Modelagem iPhone
+
+```mermaid
 classDiagram
-direction TB
-    class iPhone {
-    }
+    direction TB
+        class iPhone {
+        }
 
-    class AparelhoTelefonico {
-	    +ligar(String numero)
-	    +atender()
-	    +iniciarCorreioVoz()
-    }
+        class AparelhoTelefonico {
+            +ligar(String numero)
+            +atender()
+            +iniciarCorreioVoz()
+        }
 
-    class NavegadorInternet {
-	    +exibirPagina(String url)
-	    +adicionarNovaAba()
-	    +atualizarPagina()
-    }
+        class NavegadorInternet {
+            +exibirPagina(String url)
+            +adicionarNovaAba()
+            +atualizarPagina()
+        }
 
-    class ReprodutorMusical {
-	    +tocar()
-	    +pausar()
-	    +selecionarMusica(String musica)
-    }
+        class ReprodutorMusical {
+            +tocar()
+            +pausar()
+            +selecionarMusica(String musica)
+        }
 
-    iPhone --|> ReprodutorMusical
-    iPhone --|> AparelhoTelefonico
-    iPhone --|> NavegadorInternet
+        iPhone --|> ReprodutorMusical
+        iPhone --|> AparelhoTelefonico
+        iPhone --|> NavegadorInternet
+```
